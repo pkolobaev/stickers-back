@@ -1,0 +1,71 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.ear
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.war
+*.zip
+!*.xml.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files #
+#############
+.idea
+*.iml
+*.swp
+
+# XCode files #
+###############
+DerivedData
+xcuserdata
+*.xccheckout
+*.xcworkspace
+*.xcodeproj
+*.build
+
+# Maven target directory #
+##########################
+target
+
+# Maven Versions plugin #
+#########################
+*.versionsBackup
+
+#nodejs
+#######
+node_modules
+
+#h2 DB
+######
+/h2.mv.db
+/h2.trace.db
