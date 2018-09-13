@@ -60,7 +60,7 @@
             </properties>
         </profile>
         <profile>
-            <id>Linux</id>
+            <id>Mac</id>
             <activation>
                 <os>
                     <family>mac</family>
