@@ -15,6 +15,6 @@ public class TestController {
 
     @RequestMapping(value = "/stickers", method = RequestMethod.GET, produces = MediaType.TEXT_PLAIN_VALUE)
     public String test() {
-        return "STICKERS";
+        return "STICKERS1";
     }
 }

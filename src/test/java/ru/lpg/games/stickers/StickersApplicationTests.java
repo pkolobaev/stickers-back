@@ -22,6 +22,6 @@ public class StickersApplicationTests {
                 .expectStatus()
                 .isOk()
                 .expectBody(String.class)
-                .isEqualTo("STICKERS");
+                .isEqualTo("STICKERS1");
     }
 }
