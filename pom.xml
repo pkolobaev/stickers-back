@@ -85,8 +85,8 @@
                                     <goal>exec</goal>
                                 </goals>
                                 <configuration>
-                                    <executable>${basedir}/scripts/docker_start.${script.extension}</executable>
-                                    <workingDirectory>${basedir}/scripts/</workingDirectory>
+                                    <executable>${basedir}/docker_scripts/docker_start.${script.extension}</executable>
+                                    <workingDirectory>docker_scripts/</workingDirectory>
                                 </configuration>
                             </execution>
                         </executions>
