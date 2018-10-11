@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.lpg.games</groupId>
-    <artifactId>stickers</artifactId>
+    <artifactId>stickers-back</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
